@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+/* src/App.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* src/App.css */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #333;
+  padding: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
